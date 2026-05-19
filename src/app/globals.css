@@ -1,0 +1,12 @@
+@import "tailwindcss";
+:root{--black:#111;--yellow:#f5c518;--bg:#ececec;--heading:var(--black);--muted:#6b7280;--bg-card:#fff;--bg-trust:#f5f0d6;--bg-services:#ececec;--bg-about:#fff;--bg-reviews:#e8e8e8;--bg-gallery:#f0f0f0;--border-subtle:rgba(0,0,0,.08)}
+body{margin:0;background:var(--bg);font-family:var(--font-body),system-ui}
+.form-input{width:100%;border:1px solid #ccc;padding:.6rem}
+.form-btn{width:100%;background:var(--black);color:var(--yellow);padding:.75rem;font-weight:700}
+.cta-primary{display:inline-block;border-radius:.5rem;background:var(--black);padding:.75rem 1.5rem;font-size:.875rem;font-weight:700;color:var(--yellow)}
+.cta-secondary{display:inline-block;border-radius:.5rem;border:1px solid var(--black);padding:.75rem 1.5rem;font-size:.875rem;font-weight:700;color:var(--black)}
+.section-trust{background:var(--bg-trust);border-bottom:1px solid var(--border-subtle)}
+.section-services{background:var(--bg-services)}
+.section-about{background:var(--bg-about)}
+.section-reviews{background:var(--bg-reviews)}
+.section-gallery{background:var(--bg-gallery)}
